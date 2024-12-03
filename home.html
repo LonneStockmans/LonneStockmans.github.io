@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../STYLE/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Poppy's Doggy Wash</title>
+</head>
+
+<body>
+    <!-- START navigation -->
+    <div class="pdw-nav-bar">
+        <div class="d-flex justify-content-center pt-2 pb-2">
+            <img class="w-8" src="../ASSETS/PoppiesDoggieWash_Logo_V1.png" alt="">
+        </div>
+        <div class="pdw-menu-container stroke shadow d-none d-md-block">
+            <ul>
+                <li><a href="./home.html">Welkom</a></li>
+                <!-- <li class="pdw-faciliteiten"><a href="#">Faciliteiten</a>
+                    <ul
+                        class="pdw-faciliteiten-dropdown d-none d-flex flex-column justify-content-start ps-0 pb-1 shadow">
+                        <li><a href="./faciliteiten_doggy_wash.html">Doggy Wash Machine</a></li>
+                        <li><a href="./faciliteiten_trimtafel.html">Trimtafel</a></li>
+                    </ul>
+                </li> -->
+                <li><a href="./faciliteiten_doggy_wash.html">Doggy Wash Machine</a></li>
+                <li><a href="./faciliteiten_trimtafel.html">Trimruimte</a></li>
+                <!-- <li><a id="reserveren" href="https://bookeo.com/poppiesdoggywash" target="_blank">Trimruimte reserveren</a></li> -->
+                <li><a href="./faq.html">FAQ</a></li>
+            </ul>
+        </div>
+        <div class="pdw-hamburgermenu stroke shadow d-block d-md-none">
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                    <div data-bs-toggle="collapse" data-bs-target="#flush-collapse1" aria-expanded="false" aria-controls="flush-collapse1">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+                          </svg>
+                          
+                    </div>
+                    
+                  <div id="flush-collapse1" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="pdw-menu-container-mobile d-block">
+                        <ul>
+                            <li><a href="./home.html">Welkom</a></li>
+                            <!-- <li class="pdw-faciliteiten"><a href="#">Faciliteiten</a>
+                                <ul
+                                    class="pdw-faciliteiten-dropdown d-none d-flex flex-column justify-content-start ps-0 pb-1 shadow">
+                                    <li><a href="./faciliteiten_doggy_wash.html">Doggy Wash Machine</a></li>
+                                    <li><a href="./faciliteiten_trimtafel.html">Trimtafel</a></li>
+                                </ul>
+                            </li> -->
+                            <li><a href="./faciliteiten_doggy_wash.html">Doggy Wash Machine</a></li>
+                            <li><a href="./faciliteiten_trimtafel.html">Trimruimte</a></li>
+                            <!-- <li><a id="reserveren" href="https://bookeo.com/poppiesdoggywash" target="_blank">Trimruimte reserveren</a></li> -->
+                            <li><a href="./faq.html">FAQ</a></li>
+                        </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </div>
+    <!-- END navigation -->
+     
+
+    <!-- START body -->
+    <div class="container mt-3 pb-5">
+        <div class="title_container">
+
+            <div class="d-flex justify-content-center">
+                <hr>
+            </div>
+            <div class="d-flex justify-content-center">
+                <h1>Welkom bij Poppie's Doggy Wash!</h1>
+            </div>
+            <div class="d-flex justify-content-center">
+                <hr>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-md-6">
+                
+                <p>
+                    Bij ons wordt het verzorgen van je viervoeter een waar verwenavontuur, vol gemak en comfort!<br><br>
+
+                    Dit dankzij onze state-of-the-art doggy wash machine en DIY trimruimte (incl. trimtafel en
+                    waterblazer).
+                    <br><br>
+                    Geen reservering nodig! Kom gewoon langs wanneer je hond een frisse was- en/of knipbeurt nodig
+                    heeft.
+                    <br><br>
+                    Wij zijn elke dag open van 9u - 22u.<br>
+                    Ook op zon-en feestdagen!
+                </p>
+                
+                
+            </div>
+            <div class="col-md-6">
+                <div id="map"></div>
+
+                <!-- prettier-ignore -->
+                <script>(g => { var h, a, k, p = "The Google Maps JavaScript API", c = "google", l = "importLibrary", q = "__ib__", m = document, b = window; b = b[c] || (b[c] = {}); var d = b.maps || (b.maps = {}), r = new Set, e = new URLSearchParams, u = () => h || (h = new Promise(async (f, n) => { await (a = m.createElement("script")); e.set("libraries", [...r] + ""); for (k in g) e.set(k.replace(/[A-Z]/g, t => "_" + t[0].toLowerCase()), g[k]); e.set("callback", c + ".maps." + q); a.src = `https://maps.${c}apis.com/maps/api/js?` + e; d[q] = f; a.onerror = () => h = n(Error(p + " could not load.")); a.nonce = m.querySelector("script[nonce]")?.nonce || ""; m.head.append(a) })); d[l] ? console.warn(p + " only loads once. Ignoring:", g) : d[l] = (f, ...n) => r.add(f) && u().then(() => d[l](f, ...n)) })
+                        ({ key: "AIzaSyBKCv8F0DxPUl3gKpZsGGQIxEGzncXL-uA", v: "weekly" });</script>
+            </div>
+        </div>
+
+        <div class="row mt-5">
+            <div class="title_container mb-3">
+                <div class="d-flex justify-content-center">
+                    <hr>
+                </div>
+                <div class="d-flex justify-content-center">
+                    <h3>Waarom voor Poppie’s Doggy Wash kiezen</h3>
+                </div>
+                <div class="d-flex justify-content-center">
+                    <hr>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <ul>
+                    <li><b>Veilig:</b> Je hond zit stevig vast in de doggy wash machine en op de trimtafel dankzij een veilige ketting, waardoor ontsnappen onmogelijk is. Zowel de Doggy Wash Machine als Trimtafel zijn anti-slip. </li>
+                    <li><b>Geen onverwachte ontmoetingen:</b> Lage poortjes voorkomen wegloopgevaar en ongewenste ontmoetingen met andere honden.</li>
+                    <li><b>Gebruiksvriendelijk:</b> Alles wijst zichzelf uit. Bij twijfel volg je eenvoudig ons duidelijke stappenplan. Toch een vraag? Bel ons gerust!</li>
+                    <li><b>Kindvriendelijk:</b> Een leuke familieactiviteit, zelfs kinderen kunnen helpen! Het is werkelijk kinderspel. </li>
+                    <li><b>Rustige omgeving:</b> Dankzij de rustige en prikkelvrije omgeving kun je je volledig op je hond concentreren, zonder enige stress.</li>
+                    <li><b>Comfortabel:</b> Ergonomische werkhoogte en verstelbare trimtafel, geen rugpijn meer!</li>
+                    <li><b>Zorgeloos:</b> Laat vuil, haren en modder bij ons achter—geen rommel thuis!</li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <ul>
+                    <li><b>Hygiënisch:</b> De Doggy Wash-Machine kan voor en na elke wasbeurt gratis worden gedesinfecteerd, en wij controleren meerdere keren per dag of alles netjes en in orde is.</li>
+                    <li><b>Voorzieningen:</b> Airco en verwarming zorgen voor een comfortabele temperatuur. Er zijn ruime plekken, handige karretjes, een oploopbankje, snoepjes, schorten, poetsmateriaal, en ontsmettingsmiddel aanwezig. Alle wasproducten (shampoo, conditioner, anti-teken- en vlooienshampoo), inclusief een waterdroger, zijn voorzien. Trimmateriaal zoals scharen en kammen breng je zelf mee.</li>
+                    <li><b>Makkelijk bereikbaar:</b> Ruime en gratis parkeergelegenheid.</li>
+                    <li><b>Betaalbaar:</b> Doggy Wash Machine vanaf €10, Trimruimte vanaf €5. Geen reservering nodig! Trimtafel vòòr gebruik ter plaatse te betalen via QR-code of vooraf via bookeo.com/poppiesdoggywash. De Doggy Wash Machine is ter plaatse te betalen met bankkaart of kleingeld. </li>
+                    <li><b>Ruime openingstijden:</b> Dagelijks open van 9 tot 22 uur, ook op zon- en feestdagen.</li>
+                </ul>
+            </div>
+            <div class="d-flex justify-content-center mt-3"><p>Kom langs en ontdek waarom zoveel klanten tevreden zijn! ✨</p></div>
+            
+        </div>
+
+
+        <div class="row mt-5 ">
+            <div class="title_container">
+                <div class="d-flex justify-content-center">
+                    <hr>
+                </div>
+                <div class="d-flex justify-content-center">
+                    <h3>Neem alvast een kijkje binnen</h3>
+                </div>
+                <div class="d-flex justify-content-center">
+                    <hr>
+                </div>
+            </div>
+
+            <div class="col-md-6 d-flex justify-content-around mt-4">
+                <video width="auto" height="600" autoplay controls muted>
+                    <source src="../ASSETS/Video/pdw.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <div class="col-md-6 d-flex justify-content-around mt-4">
+                <video width="auto" height="600" autoplay controls muted>
+                    <source src="../ASSETS/Video/poortjes_converted.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+
+            </div>
+        </div>
+
+
+
+    </div>
+    <!-- END body -->
+
+    <!-- START footer -->
+    <div class="pdw-footer pt-2 pb-3">
+        <div class="container d-none d-lg-flex justify-content-between">
+            <div class="w-25 d-flex justify-content-center align-items-center">
+                <img class="w-50" src="../ASSETS/PoppiesDoggieWash_Logo_V1.png" alt="">
+            </div>
+            <table>
+                <th>Openingsuren:</th>
+                <tr>
+                    <td>Maandag:</td>
+                    <td>9u-22u</td>
+                </tr>
+                <tr>
+                    <td>Dinsdag:</td>
+                    <td>9u-22u</td>
+                </tr>
+                <tr>
+                    <td>Woensdag:</td>
+                    <td>9u-22u</td>
+                </tr>
+                <tr>
+                    <td>Donderdag:</td>
+                    <td>9u-22u</td>
+                </tr>
+                <tr>
+                    <td>Vrijdag:</td>
+                    <td>9u-22u</td>
+                </tr>
+                <tr>
+                    <td>Zaterdag:</td>
+                    <td>9u-22u</td>
+                </tr>
+                <tr>
+                    <td>Zondag:</td>
+                    <td>9u-22u</td>
+                </tr>
+            </table>
+            <div>
+                <p>Nog vragen? <br>Stuur een mail naar <a
+                        href="mailto:poppiesdoggywas@outlook.com">poppiesdoggywas@outlook.com</a>.</p>
+                <a href=""><img src="../ASSETS/icons8-facebook-48.png" alt=""></a>
+                <a href=""><img src="../ASSETS/icons8-instagram-48.png" alt=""></a>
+            </div>
+        </div>
+        
+        <div class="container d-flex d-lg-none flex-column justify-content-center align-items-center">
+            <div class="w-50 d-flex justify-content-center align-items-center mb-3">
+                <img class="w-50" src="../ASSETS/PoppiesDoggieWash_Logo_V1.png" alt="">
+            </div>
+                <table>
+                <th>Openingsuren:</th>
+                <tr>
+                    <td>Maandag:</td>
+                    <td>9u-22u</td>
+                </tr>
+                <tr>
+                    <td>Dinsdag:</td>
+                    <td>9u-22u</td>
+                </tr>
+                <tr>
+                    <td>Woensdag:</td>
+                    <td>9u-22u</td>
+                </tr>
+                <tr>
+                    <td>Donderdag:</td>
+                    <td>9u-22u</td>
+                </tr>
+                <tr>
+                    <td>Vrijdag:</td>
+                    <td>9u-22u</td>
+                </tr>
+                <tr>
+                    <td>Zaterdag:</td>
+                    <td>9u-22u</td>
+                </tr>
+                <tr>
+                    <td>Zondag:</td>
+                    <td>9u-22u</td>
+                </tr>
+            </table>
+            <div class="mt-3">
+                <p>Nog vragen? <br>Stuur een mail naar 
+                    <a href="mailto:poppiesdoggywas@outlook.com">poppiesdoggywas@outlook.com</a>.</p>
+                <a href=""><img src="../ASSETS/icons8-facebook-48.png" alt=""></a>
+                <a href=""><img src="../ASSETS/icons8-instagram-48.png" alt=""></a>
+            </div>
+            
+        </div>
+
+    </div>
+    <!-- END footer -->
+
+    <script src="../SCRIPT/script.js"></script>
+
+    <script>
+        $('#reserveren').on('click', function () {
+            event.preventDefault();
+
+            Swal.fire({
+                title: "Opgelet!",
+                icon: "info",
+                html: `
+                        Wil je zeker zijn dat de trimruimte vrij is? <br>
+                        Reserveer dan hier op voorhand. <br>
+                        Je kan ook ter plaatse reserveren en betalen.<br> 
+                        De Doggy Wash Machine hoef je niet te reserveren! <br><br>
+
+                        Note dennis: misschien duidelijk maken dat je voor de dwm niet KAN reserveren? Zoals: <br><br>
+
+                        Reserveren kan enkel voor de <b>trimtafel</b>, voor de Doggy Wash Machine kan je niet reserveren.<br>
+                        Je kan ofwel verder gaan met de reservatie door op <b>'Oke, begrepen'</b> te klikken maar je kan ter plaatse reserveren!<br>
+                        Als je niet wil reserveren kan je <b>Terug naar de website.</b>
+                        
+                    `,
+                showCloseButton: true,
+                showCancelButton: true,
+                focusConfirm: false,
+                confirmButtonText: `
+                                    <i class="fa fa-thumbs-up"></i> Oke, begrepen.
+                                `,
+                confirmButtonAriaLabel: "Oke, begrepen",
+                cancelButtonText: `
+                                    <i class="fa fa-thumbs-down"></i> Terug naar de website.
+                                `,
+                cancelButtonAriaLabel: "Terug naar de website"
+            }).then((result) => {
+                if (result.isConfirmed) {
+                    window.open('https://bookeo.com/poppiesdoggywash', '_blank')
+                } else if (result.isDenied) {
+                    console.log("cancel")
+                }
+            });
+        })
+    </script>
+</body>
+
+</html>
